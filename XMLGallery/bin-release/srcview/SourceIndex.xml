@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index>
+	<title>Source of XMLGallery</title>
+	<nodes>
+		<node label="libs">
+			<node label="greensock.swc" url="source/libs/greensock.swc"/>
+		</node>
+		<node label="src">
+			<node label="assets">
+				<node label="images">
+					<node icon="imageIcon" label="batman.jpg" url="source/assets/images/batman.jpg.html"/>
+					<node icon="imageIcon" label="corgi.jpg" url="source/assets/images/corgi.jpg.html"/>
+					<node icon="imageIcon" label="hedgehog.jpg" url="source/assets/images/hedgehog.jpg.html"/>
+					<node icon="imageIcon" label="husk.jpg" url="source/assets/images/husk.jpg.html"/>
+					<node icon="imageIcon" label="ironman.jpg" url="source/assets/images/ironman.jpg.html"/>
+					<node icon="imageIcon" label="normandy.jpg" url="source/assets/images/normandy.jpg.html"/>
+					<node icon="imageIcon" label="nuclear.jpg" url="source/assets/images/nuclear.jpg.html"/>
+					<node icon="imageIcon" label="pikachu.jpg" url="source/assets/images/pikachu.jpg.html"/>
+					<node icon="imageIcon" label="powerrangers.jpg" url="source/assets/images/powerrangers.jpg.html"/>
+					<node icon="imageIcon" label="puppy.jpg" url="source/assets/images/puppy.jpg.html"/>
+					<node icon="imageIcon" label="slenderman.jpg" url="source/assets/images/slenderman.jpg.html"/>
+				</node>
+				<node label="images.xml" url="source/assets/images.xml.txt"/>
+			</node>
+			<node icon="packageIcon" label="com.greensock" expanded="true">
+				<node icon="actionScriptIcon" label="BlitMask.as" url="source/com/greensock/BlitMask.as.html"/>
+				<node label="changelog.txt" url="source/com/greensock/changelog.txt"/>
+				<node icon="actionScriptIcon" label="FlexBlitMask.as" url="source/com/greensock/FlexBlitMask.as.html"/>
+				<node icon="actionScriptIcon" label="OverwriteManager.as" url="source/com/greensock/OverwriteManager.as.html"/>
+				<node icon="actionScriptIcon" label="TimelineLite.as" url="source/com/greensock/TimelineLite.as.html"/>
+				<node icon="actionScriptIcon" label="TimelineMax.as" url="source/com/greensock/TimelineMax.as.html"/>
+				<node icon="actionScriptIcon" label="TweenAlign.as" url="source/com/greensock/TweenAlign.as.html"/>
+				<node icon="actionScriptIcon" label="TweenLite.as" url="source/com/greensock/TweenLite.as.html"/>
+				<node icon="actionScriptIcon" label="TweenMax.as" url="source/com/greensock/TweenMax.as.html"/>
+				<node icon="actionScriptIcon" label="TweenNano.as" url="source/com/greensock/TweenNano.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.greensock.core" expanded="true">
+				<node icon="actionScriptIcon" label="PropTween.as" url="source/com/greensock/core/PropTween.as.html"/>
+				<node icon="actionScriptIcon" label="SimpleTimeline.as" url="source/com/greensock/core/SimpleTimeline.as.html"/>
+				<node icon="actionScriptIcon" label="TweenCore.as" url="source/com/greensock/core/TweenCore.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.greensock.data" expanded="true">
+				<node icon="actionScriptIcon" label="TweenLiteVars.as" url="source/com/greensock/data/TweenLiteVars.as.html"/>
+				<node icon="actionScriptIcon" label="TweenMaxVars.as" url="source/com/greensock/data/TweenMaxVars.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.greensock.easing" expanded="true">
+				<node icon="actionScriptIcon" label="Back.as" url="source/com/greensock/easing/Back.as.html"/>
+				<node icon="actionScriptIcon" label="Bounce.as" url="source/com/greensock/easing/Bounce.as.html"/>
+				<node icon="actionScriptIcon" label="Circ.as" url="source/com/greensock/easing/Circ.as.html"/>
+				<node icon="actionScriptIcon" label="Cubic.as" url="source/com/greensock/easing/Cubic.as.html"/>
+				<node icon="actionScriptIcon" label="EaseLookup.as" url="source/com/greensock/easing/EaseLookup.as.html"/>
+				<node label="easing_readme.txt" url="source/com/greensock/easing/easing_readme.txt"/>
+				<node icon="actionScriptIcon" label="Elastic.as" url="source/com/greensock/easing/Elastic.as.html"/>
+				<node icon="actionScriptIcon" label="Expo.as" url="source/com/greensock/easing/Expo.as.html"/>
+				<node icon="actionScriptIcon" label="FastEase.as" url="source/com/greensock/easing/FastEase.as.html"/>
+				<node icon="actionScriptIcon" label="Linear.as" url="source/com/greensock/easing/Linear.as.html"/>
+				<node icon="actionScriptIcon" label="Quad.as" url="source/com/greensock/easing/Quad.as.html"/>
+				<node icon="actionScriptIcon" label="Quart.as" url="source/com/greensock/easing/Quart.as.html"/>
+				<node icon="actionScriptIcon" label="Quint.as" url="source/com/greensock/easing/Quint.as.html"/>
+				<node icon="actionScriptIcon" label="RoughEase.as" url="source/com/greensock/easing/RoughEase.as.html"/>
+				<node icon="actionScriptIcon" label="Sine.as" url="source/com/greensock/easing/Sine.as.html"/>
+				<node icon="actionScriptIcon" label="SteppedEase.as" url="source/com/greensock/easing/SteppedEase.as.html"/>
+				<node icon="actionScriptIcon" label="Strong.as" url="source/com/greensock/easing/Strong.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.greensock.events" expanded="true">
+				<node icon="actionScriptIcon" label="LoaderEvent.as" url="source/com/greensock/events/LoaderEvent.as.html"/>
+				<node icon="actionScriptIcon" label="TweenEvent.as" url="source/com/greensock/events/TweenEvent.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.greensock.layout" expanded="true">
+				<node icon="actionScriptIcon" label="AlignMode.as" url="source/com/greensock/layout/AlignMode.as.html"/>
+				<node icon="actionScriptIcon" label="AutoFitArea.as" url="source/com/greensock/layout/AutoFitArea.as.html"/>
+				<node icon="actionScriptIcon" label="ScaleMode.as" url="source/com/greensock/layout/ScaleMode.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.greensock.loading" expanded="true">
+				<node icon="actionScriptIcon" label="BinaryDataLoader.as" url="source/com/greensock/loading/BinaryDataLoader.as.html"/>
+				<node label="changelog.txt" url="source/com/greensock/loading/changelog.txt"/>
+				<node icon="actionScriptIcon" label="CSSLoader.as" url="source/com/greensock/loading/CSSLoader.as.html"/>
+				<node icon="actionScriptIcon" label="DataLoader.as" url="source/com/greensock/loading/DataLoader.as.html"/>
+				<node icon="actionScriptIcon" label="ImageLoader.as" url="source/com/greensock/loading/ImageLoader.as.html"/>
+				<node icon="actionScriptIcon" label="LoaderMax.as" url="source/com/greensock/loading/LoaderMax.as.html"/>
+				<node icon="actionScriptIcon" label="LoaderStatus.as" url="source/com/greensock/loading/LoaderStatus.as.html"/>
+				<node icon="actionScriptIcon" label="MP3Loader.as" url="source/com/greensock/loading/MP3Loader.as.html"/>
+				<node icon="actionScriptIcon" label="SelfLoader.as" url="source/com/greensock/loading/SelfLoader.as.html"/>
+				<node icon="actionScriptIcon" label="SWFLoader.as" url="source/com/greensock/loading/SWFLoader.as.html"/>
+				<node icon="actionScriptIcon" label="VideoLoader.as" url="source/com/greensock/loading/VideoLoader.as.html"/>
+				<node icon="actionScriptIcon" label="XMLLoader.as" url="source/com/greensock/loading/XMLLoader.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.greensock.loading.core" expanded="true">
+				<node icon="actionScriptIcon" label="DisplayObjectLoader.as" url="source/com/greensock/loading/core/DisplayObjectLoader.as.html"/>
+				<node icon="actionScriptIcon" label="LoaderCore.as" url="source/com/greensock/loading/core/LoaderCore.as.html"/>
+				<node icon="actionScriptIcon" label="LoaderItem.as" url="source/com/greensock/loading/core/LoaderItem.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.greensock.loading.data" expanded="true">
+				<node icon="actionScriptIcon" label="CSSLoaderVars.as" url="source/com/greensock/loading/data/CSSLoaderVars.as.html"/>
+				<node icon="actionScriptIcon" label="DataLoaderVars.as" url="source/com/greensock/loading/data/DataLoaderVars.as.html"/>
+				<node icon="actionScriptIcon" label="ImageLoaderVars.as" url="source/com/greensock/loading/data/ImageLoaderVars.as.html"/>
+				<node icon="actionScriptIcon" label="LoaderMaxVars.as" url="source/com/greensock/loading/data/LoaderMaxVars.as.html"/>
+				<node icon="actionScriptIcon" label="MP3LoaderVars.as" url="source/com/greensock/loading/data/MP3LoaderVars.as.html"/>
+				<node icon="actionScriptIcon" label="SWFLoaderVars.as" url="source/com/greensock/loading/data/SWFLoaderVars.as.html"/>
+				<node icon="actionScriptIcon" label="VideoLoaderVars.as" url="source/com/greensock/loading/data/VideoLoaderVars.as.html"/>
+				<node icon="actionScriptIcon" label="XMLLoaderVars.as" url="source/com/greensock/loading/data/XMLLoaderVars.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.greensock.loading.display" expanded="true">
+				<node icon="actionScriptIcon" label="ContentDisplay.as" url="source/com/greensock/loading/display/ContentDisplay.as.html"/>
+				<node icon="actionScriptIcon" label="FlexContentDisplay.as" url="source/com/greensock/loading/display/FlexContentDisplay.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.greensock.motionPaths" expanded="true">
+				<node icon="actionScriptIcon" label="CirclePath2D.as" url="source/com/greensock/motionPaths/CirclePath2D.as.html"/>
+				<node icon="actionScriptIcon" label="Direction.as" url="source/com/greensock/motionPaths/Direction.as.html"/>
+				<node icon="actionScriptIcon" label="LinePath2D.as" url="source/com/greensock/motionPaths/LinePath2D.as.html"/>
+				<node icon="actionScriptIcon" label="MotionPath.as" url="source/com/greensock/motionPaths/MotionPath.as.html"/>
+				<node icon="actionScriptIcon" label="PathFollower.as" url="source/com/greensock/motionPaths/PathFollower.as.html"/>
+				<node icon="actionScriptIcon" label="RectanglePath2D.as" url="source/com/greensock/motionPaths/RectanglePath2D.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.greensock.plugins" expanded="true">
+				<node icon="actionScriptIcon" label="AutoAlphaPlugin.as" url="source/com/greensock/plugins/AutoAlphaPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="BevelFilterPlugin.as" url="source/com/greensock/plugins/BevelFilterPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="BezierPlugin.as" url="source/com/greensock/plugins/BezierPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="BezierThroughPlugin.as" url="source/com/greensock/plugins/BezierThroughPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="BlurFilterPlugin.as" url="source/com/greensock/plugins/BlurFilterPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="CacheAsBitmapPlugin.as" url="source/com/greensock/plugins/CacheAsBitmapPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="CirclePath2DPlugin.as" url="source/com/greensock/plugins/CirclePath2DPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="ColorMatrixFilterPlugin.as" url="source/com/greensock/plugins/ColorMatrixFilterPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="ColorTransformPlugin.as" url="source/com/greensock/plugins/ColorTransformPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="DropShadowFilterPlugin.as" url="source/com/greensock/plugins/DropShadowFilterPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="EndArrayPlugin.as" url="source/com/greensock/plugins/EndArrayPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="EndVectorPlugin.as" url="source/com/greensock/plugins/EndVectorPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="FilterPlugin.as" url="source/com/greensock/plugins/FilterPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="FrameBackwardPlugin.as" url="source/com/greensock/plugins/FrameBackwardPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="FrameForwardPlugin.as" url="source/com/greensock/plugins/FrameForwardPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="FrameLabelPlugin.as" url="source/com/greensock/plugins/FrameLabelPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="FramePlugin.as" url="source/com/greensock/plugins/FramePlugin.as.html"/>
+				<node icon="actionScriptIcon" label="GlowFilterPlugin.as" url="source/com/greensock/plugins/GlowFilterPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="HexColorsPlugin.as" url="source/com/greensock/plugins/HexColorsPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="QuaternionsPlugin.as" url="source/com/greensock/plugins/QuaternionsPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="RemoveTintPlugin.as" url="source/com/greensock/plugins/RemoveTintPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="RoundPropsPlugin.as" url="source/com/greensock/plugins/RoundPropsPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="ScalePlugin.as" url="source/com/greensock/plugins/ScalePlugin.as.html"/>
+				<node icon="actionScriptIcon" label="ScrollRectPlugin.as" url="source/com/greensock/plugins/ScrollRectPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="SetActualSizePlugin.as" url="source/com/greensock/plugins/SetActualSizePlugin.as.html"/>
+				<node icon="actionScriptIcon" label="SetSizePlugin.as" url="source/com/greensock/plugins/SetSizePlugin.as.html"/>
+				<node icon="actionScriptIcon" label="ShortRotationPlugin.as" url="source/com/greensock/plugins/ShortRotationPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="SoundTransformPlugin.as" url="source/com/greensock/plugins/SoundTransformPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="StageQualityPlugin.as" url="source/com/greensock/plugins/StageQualityPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="TintPlugin.as" url="source/com/greensock/plugins/TintPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="TransformMatrixPlugin.as" url="source/com/greensock/plugins/TransformMatrixPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="TweenPlugin.as" url="source/com/greensock/plugins/TweenPlugin.as.html"/>
+				<node icon="actionScriptIcon" label="VisiblePlugin.as" url="source/com/greensock/plugins/VisiblePlugin.as.html"/>
+				<node icon="actionScriptIcon" label="VolumePlugin.as" url="source/com/greensock/plugins/VolumePlugin.as.html"/>
+			</node>
+			<node icon="actionScriptIcon" label="GalleryImage.as" url="source/GalleryImage.as.html"/>
+			<node icon="mxmlAppIcon" selected="true" label="Main.mxml" url="source/Main.mxml.html"/>
+		</node>
+	</nodes>
+	<zipfile label="Download source (ZIP, 1787K)" url="XMLGallery.zip">
+	</zipfile>
+	<sdklink label="Download Flex SDK" url="http://www.adobe.com/go/flex451_sdk_download">
+	</sdklink>
+</index>

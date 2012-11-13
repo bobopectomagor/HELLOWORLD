@@ -1,0 +1,46 @@
+<images>
+	<image type="cute">
+		<source>assets/images/hedgehog.jpg</source>
+		<description>I like this one.</description>
+	</image>
+	<image type="cute">
+		<source>assets/images/corgi.jpg</source>
+		<description>I like this one.</description>
+	</image>
+	<image type="cute">
+		<source>assets/images/puppy.jpg</source>
+		<description>I like this one.</description>
+	</image>
+	<image type="cute">
+		<source>assets/images/pikachu.jpg</source>
+		<description>I like this one.</description>
+	</image>
+	<image type="scary">
+		<source>assets/images/slenderman.jpg</source>
+		<description>I don't like this one.</description>
+	</image>
+	<image type="scary">
+		<source>assets/images/husk.jpg</source>
+		<description>I don't like this one.</description>
+	</image>
+	<image type="scary">
+		<source>assets/images/nuclear.jpg</source>
+		<description>I don't like this one.</description>
+	</image>
+	<image type="cool">
+		<source>assets/images/powerrangers.jpg</source>
+		<description>I like this one.</description>
+	</image>
+	<image type="cool">
+		<source>assets/images/normandy.jpg</source>
+		<description>I like this one.</description>
+	</image>
+	<image type="cool">
+		<source>assets/images/batman.jpg</source>
+		<description>I like this one.</description>
+	</image>
+	<image type="cool">
+		<source>assets/images/ironman.jpg</source>
+		<description>I like this one.</description>
+	</image>
+</images>

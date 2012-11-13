@@ -1,0 +1,64 @@
+<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>GalleryImage.as</title>
+<link rel="stylesheet" type="text/css" href="../SourceStyles.css"/>
+</head>
+
+<body><pre><span class="ActionScriptpackage">package</span>
+<span class="ActionScriptBracket/Brace">{</span>
+    <span class="ActionScriptReserved">import</span> <span class="ActionScriptDefault_Text">flash</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">events</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">MouseEvent</span>;
+    <span class="ActionScriptReserved">import</span> <span class="ActionScriptDefault_Text">spark</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">components</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">Group</span>;
+    <span class="ActionScriptReserved">import</span> <span class="ActionScriptDefault_Text">spark</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">components</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">Image</span>;
+    <span class="ActionScriptReserved">import</span> <span class="ActionScriptDefault_Text">spark</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">components</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">Label</span>
+    <span class="ActionScriptReserved">import</span> <span class="ActionScriptDefault_Text">com</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">greensock</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">TweenLite</span>;
+    <span class="ActionScriptReserved">public</span> <span class="ActionScriptclass">class</span> <span class="ActionScriptDefault_Text">GalleryImage</span> <span class="ActionScriptReserved">extends</span> <span class="ActionScriptDefault_Text">Group</span>
+    <span class="ActionScriptBracket/Brace">{</span>
+        <span class="ActionScriptReserved">private</span> <span class="ActionScriptvar">var</span>  <span class="ActionScriptDefault_Text">_description</span>:<span class="ActionScriptDefault_Text">String</span>;
+        <span class="ActionScriptReserved">private</span> <span class="ActionScriptvar">var</span> <span class="ActionScriptDefault_Text">_source</span>:<span class="ActionScriptDefault_Text">String</span>;    
+        <span class="ActionScriptReserved">private</span> <span class="ActionScriptvar">var</span> <span class="ActionScriptDefault_Text">myLabel</span>:<span class="ActionScriptDefault_Text">Label</span>;
+        <span class="ActionScriptReserved">private</span> <span class="ActionScriptvar">var</span> <span class="ActionScriptDefault_Text">myImage</span>:<span class="ActionScriptDefault_Text">Image</span>;
+        
+        <span class="ActionScriptReserved">public</span> <span class="ActionScriptfunction">function</span> <span class="ActionScriptDefault_Text">GalleryImage</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptDefault_Text">source</span>:<span class="ActionScriptDefault_Text">String</span><span class="ActionScriptOperator">,</span> <span class="ActionScriptDefault_Text">description</span>:<span class="ActionScriptDefault_Text">String</span><span class="ActionScriptBracket/Brace">)</span>:<span class="ActionScriptReserved">void</span>
+        <span class="ActionScriptBracket/Brace">{</span>
+            
+            <span class="ActionScriptDefault_Text">_source</span> <span class="ActionScriptOperator">=</span> <span class="ActionScriptDefault_Text">source</span>;
+            <span class="ActionScriptDefault_Text">_description</span> <span class="ActionScriptOperator">=</span> <span class="ActionScriptDefault_Text">description</span>;
+            
+            <span class="ActionScriptReserved">super</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptBracket/Brace">)</span>;
+            
+            
+            <span class="ActionScriptDefault_Text">myImage</span> <span class="ActionScriptOperator">=</span> <span class="ActionScriptReserved">new</span> <span class="ActionScriptDefault_Text">Image</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptBracket/Brace">)</span>;
+            <span class="ActionScriptDefault_Text">myImage</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">source</span> <span class="ActionScriptOperator">=</span> <span class="ActionScriptDefault_Text">_source</span>;
+            <span class="ActionScriptDefault_Text">myImage</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">alpha</span> <span class="ActionScriptOperator">=</span> .7;
+            <span class="ActionScriptDefault_Text">myImage</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">width</span> <span class="ActionScriptOperator">=</span> 200;
+            <span class="ActionScriptDefault_Text">myImage</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">height</span> <span class="ActionScriptOperator">=</span> 200;
+            <span class="ActionScriptReserved">this</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">addElement</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptDefault_Text">myImage</span><span class="ActionScriptBracket/Brace">)</span>;
+            
+            <span class="ActionScriptDefault_Text">myLabel</span> <span class="ActionScriptOperator">=</span> <span class="ActionScriptReserved">new</span> <span class="ActionScriptDefault_Text">Label</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptBracket/Brace">)</span>;
+            <span class="ActionScriptDefault_Text">myLabel</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">text</span> <span class="ActionScriptOperator">=</span> <span class="ActionScriptDefault_Text">_description</span>;
+            <span class="ActionScriptDefault_Text">myLabel</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">y</span> <span class="ActionScriptOperator">=</span> 210;
+            <span class="ActionScriptDefault_Text">myLabel</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">alpha</span> <span class="ActionScriptOperator">=</span> 0;
+            <span class="ActionScriptReserved">this</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">addElement</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptDefault_Text">myLabel</span><span class="ActionScriptBracket/Brace">)</span>;
+            <span class="ActionScriptReserved">this</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">addEventListener</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptDefault_Text">MouseEvent</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">MOUSE_OVER</span><span class="ActionScriptOperator">,</span> <span class="ActionScriptDefault_Text">onMover</span><span class="ActionScriptBracket/Brace">)</span>;
+            <span class="ActionScriptReserved">this</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">addEventListener</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptDefault_Text">MouseEvent</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">MOUSE_OUT</span><span class="ActionScriptOperator">,</span> <span class="ActionScriptDefault_Text">onMout</span><span class="ActionScriptBracket/Brace">)</span>;
+        <span class="ActionScriptBracket/Brace">}</span>
+        
+        <span class="ActionScriptReserved">private</span> <span class="ActionScriptfunction">function</span> <span class="ActionScriptDefault_Text">onMover</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptDefault_Text">e</span>:<span class="ActionScriptDefault_Text">MouseEvent</span><span class="ActionScriptBracket/Brace">)</span>:<span class="ActionScriptReserved">void</span><span class="ActionScriptBracket/Brace">{</span>
+            <span class="ActionScriptDefault_Text">TweenLite</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">to</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptDefault_Text">myLabel</span><span class="ActionScriptOperator">,</span> .7<span class="ActionScriptOperator">,</span><span class="ActionScriptBracket/Brace">{</span><span class="ActionScriptDefault_Text">alpha</span>:1<span class="ActionScriptBracket/Brace">}</span><span class="ActionScriptBracket/Brace">)</span>;
+            <span class="ActionScriptDefault_Text">TweenLite</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">to</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptDefault_Text">myImage</span><span class="ActionScriptOperator">,</span> .7<span class="ActionScriptOperator">,</span><span class="ActionScriptBracket/Brace">{</span><span class="ActionScriptDefault_Text">alpha</span>:1<span class="ActionScriptBracket/Brace">}</span><span class="ActionScriptBracket/Brace">)</span>;
+        <span class="ActionScriptBracket/Brace">}</span>
+        
+        <span class="ActionScriptReserved">private</span> <span class="ActionScriptfunction">function</span> <span class="ActionScriptDefault_Text">onMout</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptDefault_Text">e</span>:<span class="ActionScriptDefault_Text">MouseEvent</span><span class="ActionScriptBracket/Brace">)</span>:<span class="ActionScriptReserved">void</span><span class="ActionScriptBracket/Brace">{</span>
+            <span class="ActionScriptDefault_Text">TweenLite</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">to</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptDefault_Text">myLabel</span><span class="ActionScriptOperator">,</span> .7<span class="ActionScriptOperator">,</span><span class="ActionScriptBracket/Brace">{</span><span class="ActionScriptDefault_Text">alpha</span>:0<span class="ActionScriptBracket/Brace">}</span><span class="ActionScriptBracket/Brace">)</span>;
+            <span class="ActionScriptDefault_Text">TweenLite</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">to</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptDefault_Text">myImage</span><span class="ActionScriptOperator">,</span> .7<span class="ActionScriptOperator">,</span><span class="ActionScriptBracket/Brace">{</span><span class="ActionScriptDefault_Text">alpha</span>:.7<span class="ActionScriptBracket/Brace">}</span><span class="ActionScriptBracket/Brace">)</span>;
+        <span class="ActionScriptBracket/Brace">}</span>
+    <span class="ActionScriptBracket/Brace">}</span>
+<span class="ActionScriptBracket/Brace">}</span>
+            
+        
+    
+</pre></body>
+</html>
